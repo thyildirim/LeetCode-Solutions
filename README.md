@@ -23,4 +23,4 @@ The goal is to improve problem-solving skills and share clear examples for other
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/leetcode-solutions.git
+git clone https://github.com/thyildirim/leetcode-solutions.git
