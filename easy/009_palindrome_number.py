@@ -1,15 +1,6 @@
 class Solution:
     def isPalindrome(self, x: int) -> bool:
-        s = str(x)
-        i = 0
-        j = len(s)-1
-        while i<j:
-            if s[i] != s[j]:
-                return False
-            i = i +  1
-            j = j - 1
-        return True
-
+        return str(x) == str(x)[::-1]
         
 xa = Solution()
 print(xa.isPalindrome(121))
