@@ -1,5 +1,5 @@
 """
-LeetCode Problem 0: Palindrome Number
+LeetCode Problem 9: Palindrome Number
 Difficulty: Easy
 Link: https://leetcode.com/problems/palindrome-number
 """
