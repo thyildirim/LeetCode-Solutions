@@ -9,6 +9,6 @@ class Solution:
         return str(x) == str(x)[::-1]
         
 xa = Solution()
-print(xa.isPalindrome(121))
-print(xa.isPalindrome(-121))
-print(xa.isPalindrome(0))
+print(xa.isPalindrome(121)) #True
+print(xa.isPalindrome(-121)) #False
+print(xa.isPalindrome(0)) #True
