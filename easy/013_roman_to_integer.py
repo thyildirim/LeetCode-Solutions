@@ -27,4 +27,4 @@ class Solution:
         return total
 
 x = Solution()
-print(x.romanToInt("VII"))
+print(x.romanToInt("VII")) #7
