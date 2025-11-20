@@ -24,11 +24,10 @@ class Solution:
         return not stack
 
 a = Solution()
-print(a.isValid("()"))
-print(a.isValid("()[]{}"))
-print(a.isValid("(]"))
-print(a.isValid("([)]"))
-print(a.isValid("{[]}"))
-print(a.isValid("{{{((()))}}]"))
-print(a.isValid("{{{((()))}}}"))
+print(a.isValid("()")) #True
+print(a.isValid("(]")) #False
+print(a.isValid("([)]")) #False
+print(a.isValid("{[]}")) #True
+print(a.isValid("{{{((()))}}]")) #False
+print(a.isValid("{{{((()))}}}")) #True
 
